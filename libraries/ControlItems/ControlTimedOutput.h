@@ -8,6 +8,9 @@
 /*********************************************************/
 #ifndef _CONTROLTIMEDOUTPUT_H
 #define _CONTROLTIMEDOUTPUT_H
+
+#include <ControlItem.h>
+
 class ControlTimedOutput : public ControlItem
 {
 	int _pinOutput;
