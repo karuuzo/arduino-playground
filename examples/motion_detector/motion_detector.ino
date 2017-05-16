@@ -33,7 +33,6 @@ void setup()
   lcdLight.init();
   lcdDelayLight.init();
   motionSensor.init();
-  pinMode(pinMotionDetector, INPUT);
   Serial.begin(9600);
   Serial.println ("Start...");
 }
